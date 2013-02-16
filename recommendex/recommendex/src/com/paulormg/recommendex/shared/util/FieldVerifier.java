@@ -7,7 +7,7 @@ public class FieldVerifier {
 		if (login == null) {
 			return false;
 		}
-		return login.length() > 3;
+		return login.length() > 3 && login.length() < 32;
 	}
 	
 	public static boolean isValidPassword(String password) {
