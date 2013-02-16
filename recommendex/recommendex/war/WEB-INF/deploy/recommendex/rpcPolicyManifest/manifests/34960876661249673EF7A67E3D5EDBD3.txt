@@ -1,0 +1,2 @@
+serviceClass: com.paulormg.recommendex.client.services.item.ItemService
+path: 0A4A9CCDF41311E054D2AC1FF9CDE5A6.gwt.rpc

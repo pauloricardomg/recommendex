@@ -1,0 +1,109 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #777777;
+  margin: 40px 0px 10px;
+  text-align: center;
+}
+
+.formColumnStyle {
+	color: navy;
+	text-align: right;
+}
+
+.mainScreen table {
+	width: 100%;
+	border-width: 0;
+	border-spacing: 0;
+}
+
+.itemsCell {
+	border: thin solid;
+	padding: 5px;
+	text-align: center;
+	width: 150px;
+	max-widtht: 150px;	
+}
+
+.addItemTable {
+	text-align: left;
+}
+
+.itemDetails {
+	padding: 5px;
+	text-align: center;
+}
+
+.itemsTable td { 
+	white-space: pre-wrap;
+}
+
+.itemTitle {
+	font-size: medium;
+}
+
+.itemDesc {
+	color: gray;
+	font-style: italic;
+}
+
+.itemFeatured {
+	color: orange;
+	text-shadow: black;
+}
+
+.itemFeatured td {
+	background-color: blue;
+}
+
+.itemAction {
+	font-weight: bold;
+}
+
+.paddedCell {
+	padding-top: 10px;
+}
+
+.sectionHeading {
+	text-align: left;
+	padding: 5px;
+	font-weight: bold;
+	font-size: large;
+}
+
+.sectionHeading tr {
+	width: 100%;
+}
+
+.shoppingCartHeader {
+  background-color: #2062B8;
+  color: white;
+  font-style: italic;
+}
+
+.dialogVPanel {
+  margin: 5px;
+}
+
+.serverResponseLabelError {
+  color: red;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+  width: 400px;
+}
+
+.gwt-Button {
+  display: block;
+  text-align: center;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+  margin: 15px 6px 6px;
+}

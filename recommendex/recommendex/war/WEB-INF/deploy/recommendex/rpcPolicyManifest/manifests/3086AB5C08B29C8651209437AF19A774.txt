@@ -1,0 +1,2 @@
+serviceClass: com.paulormg.recommendex.client.services.stats.StatisticsService
+path: 1CBA81CA0CD14E16D8087D54582F974A.gwt.rpc

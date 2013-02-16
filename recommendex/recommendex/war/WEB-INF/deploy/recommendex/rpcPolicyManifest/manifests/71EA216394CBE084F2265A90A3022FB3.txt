@@ -1,0 +1,2 @@
+serviceClass: com.paulormg.recommendex.client.GreetingService
+path: 8CF19FB688DA4603CE3B9F977EF7477B.gwt.rpc
