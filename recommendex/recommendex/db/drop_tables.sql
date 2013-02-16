@@ -1,0 +1,5 @@
+DROP TABLE Transaction;
+
+DROP TABLE Item;
+
+DROP TABLE User;

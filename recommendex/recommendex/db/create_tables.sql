@@ -1,0 +1,19 @@
+CREATE TABLE User (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	login VARCHAR(32) UNIQUE NOT NULL,
+	md5_password CHAR(32) UNIQUE NOT NULL
+);
+
+CREATE TABLE Item (
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	name VARCHAR(256) NOT NULL,
+	description TEXT,
+	img_url TEXT
+);
+
+CREATE TABLE Transaction (
+	id INT AUTO_INCREMENT,
+	user_id INT REFERENCES User(id),
+	item_id INT REFERENCES Item(id),
+	PRIMARY KEY(id, user_id)
+);
