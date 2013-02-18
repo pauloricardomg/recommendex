@@ -1,5 +1,7 @@
-DROP TABLE Transaction;
+DROP TABLE IF EXISTS Transaction_Item;
 
-DROP TABLE Item;
+DROP TABLE IF EXISTS Transaction;
 
-DROP TABLE User;
+DROP TABLE IF EXISTS Item;
+
+DROP TABLE IF EXISTS User;
