@@ -16,7 +16,6 @@ public class UserItemCell extends Composite {
 		this.parent = parent;
 
 		FlexTable itemsTable = new FlexTable();
-		itemsTable.setStyleName("itemsCell");
 		Image itemImg = new Image(item.getImgUrl());		
 		Anchor viewDetails = new Anchor("View details", "#");
 
@@ -25,11 +24,12 @@ public class UserItemCell extends Composite {
 		viewDetails.addClickHandler(getDetailsClickHandler(item));
 
 		// Setting style
+		itemsTable.setStyleName("itemsCell");		
 		itemsTable.getFlexCellFormatter().addStyleName(1, 0, "itemTitle");
 		itemsTable.getFlexCellFormatter().addStyleName(3, 0, "itemAction");
-
-		// Setting item table
 		itemImg.setSize("60px", "60px");
+		
+		// Setting item table
 		itemsTable.setWidget(0, 0, itemImg);
 		itemsTable.setText(1, 0, item.getName());
 		itemsTable.setWidget(2, 0, viewDetails);

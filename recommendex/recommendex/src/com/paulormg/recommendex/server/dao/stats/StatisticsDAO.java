@@ -20,6 +20,10 @@ public class StatisticsDAO {
 
 		return instance;
 	}
+	
+	private StatisticsDAO(){
+		// Private constructor
+	}	
 
 	public void viewedItem(int userId, String sessionId, int itemId) {
 		//Register action on Cassandra
@@ -33,8 +37,8 @@ public class StatisticsDAO {
 		//Register action on Cassandra
 	}
 
-	public int[] getRelatedItems(int itemId, int max) {
-		int[] result = new int[max];
+	public Integer[] getRelatedItems(int itemId, int max) {
+		Integer[] result = new Integer[max];
 		for (int i = 0; i < result.length; i++) {
 			result[i] = i;
 		}

@@ -3,6 +3,7 @@ package com.paulormg.recommendex.client.services.user;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
 import com.paulormg.recommendex.shared.exception.InvalidCredentialsException;
+import com.paulormg.recommendex.shared.exception.ServerError;
 import com.paulormg.recommendex.shared.transfer.UserData;
 
 /**
@@ -11,9 +12,9 @@ import com.paulormg.recommendex.shared.transfer.UserData;
 @RemoteServiceRelativePath("login")
 public interface UserService extends RemoteService {
 
-	UserData checkLoggedIn();
+	UserData checkLoggedIn() throws ServerError;
 
-	UserData login(String login, String password) throws IllegalArgumentException, InvalidCredentialsException;
+	UserData login(String login, String password) throws IllegalArgumentException, InvalidCredentialsException, ServerError;
 
 	void logout(String login) throws InvalidCredentialsException;
 

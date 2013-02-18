@@ -22,6 +22,7 @@ h1 {
 }
 
 .itemsCell {
+	border-width: 1;	
 	border: thin solid;
 	padding: 5px;
 	text-align: center;
