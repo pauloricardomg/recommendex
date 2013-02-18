@@ -4,3 +4,14 @@
 *.jar
 *.war
 *.ear
+
+# GWT STUFF
+gwt-unitCache/
+/build
+/classes
+*.jar
+*.class
+*~
+*/web-app/gwt
+*/web-app/WEB-INF/classes
+target
