@@ -1,2 +1,0 @@
-serviceClass: com.paulormg.recommendex.client.services.user.UserService
-path: 74A9E8B57543D82B6D707B85470E061D.gwt.rpc

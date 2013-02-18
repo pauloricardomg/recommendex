@@ -1,2 +1,5 @@
 # Module recommendex
 # RPC service class, partial path of RPC policy file
+com.paulormg.recommendex.client.services.stats.StatisticsService, 1CBA81CA0CD14E16D8087D54582F974A.gwt.rpc
+com.paulormg.recommendex.client.services.user.UserService, 225501EF1B85D771D15D7CF66CF09999.gwt.rpc
+com.paulormg.recommendex.client.services.item.ItemService, EC20A63A8F814D09FAEC33FDAB82EE89.gwt.rpc

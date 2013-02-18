@@ -1,2 +1,0 @@
-serviceClass: com.paulormg.recommendex.client.services.login.LoginService
-path: 195CCC6C2A80F240877319ABC621EAFE.gwt.rpc
